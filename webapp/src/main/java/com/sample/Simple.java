@@ -18,7 +18,7 @@ public class Simple extends HttpServlet {
       response.setContentType("text/html");   
       PrintWriter out = response.getWriter();   
       out.print("<html><body>");   
-      out.print("<h3>Hello Servlet</h3>");   
+      out.print("<h3>Hello Servlet1</h3>");   
       out.print("</body></html>");         
    }   
 }
